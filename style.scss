@@ -2,3 +2,12 @@
 @use 'atoms' as at;
 @use 'molecules' as mo;
 @use 'organisms' as org;
+
+body {
+    background-image: url($background-desktop);
+    background-color: $accent1;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
