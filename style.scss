@@ -5,6 +5,7 @@
 
 
 @media only screen and (min-width:0px){
+    @include mobile-settings;
     body {
         background-image: url($background-mobile);
         @include background-settings;
@@ -18,6 +19,7 @@
 } //MOBILE VIEW
 @media only screen and (min-width:768px){} //SMALL TABLET VIEW
 @media only screen and (min-width:992px){
+    @include desktop-settings;
     body {
         background-image: url($background-desktop)
     }
