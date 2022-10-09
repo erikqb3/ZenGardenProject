@@ -9,12 +9,6 @@
     body {
         background-image: url($background-mobile);
         @include background-settings;
-        // background-color: $accent1;
-        // height: 100vh;
-        // background-position: center;
-        // background-repeat: no-repeat;
-        // background-size: cover;
-        // background-attachment: fixed;
     }
 } //MOBILE VIEW
 @media only screen and (min-width:768px){} //SMALL TABLET VIEW
