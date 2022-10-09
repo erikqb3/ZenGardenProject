@@ -1,2 +1,13 @@
 @import "variables";
 
+.design-selection nav,
+.design-archives nav,
+.zen-resources {
+    ul {
+        li {
+            a {
+                font-size: $desktop-body;
+            }
+        }
+    }
+}
