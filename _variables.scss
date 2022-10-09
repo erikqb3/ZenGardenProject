@@ -25,3 +25,11 @@ $mobile-footer: 1.3em;
 $background-desktop: "/images/cherry-blossom-desktop.jpg";
 $background-mobile: "/images/cherry-blossom-phone.jpg";
 
+@mixin background-settings {
+  background-color: $accent1;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
