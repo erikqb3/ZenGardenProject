@@ -9,3 +9,34 @@ h3 {
 body {
     font-family: $font-paragraph;
 }
+
+h1 {
+    color: $primary;
+    font-size: $desktop-h1;
+}
+
+h2 {
+    color: $accent2;
+    font-size: $desktop-h2;
+}
+
+h3 {
+    color: $accent4;
+    font-size: $desktop-h3;
+}
+
+p {
+    color: $accent4;
+    font-size: $desktop-body;
+}
+
+a {
+    color: $accent4;
+}
+
+.page-wrapper {
+    background-color: $accent3;
+    opacity: 0.7;
+    margin: 4em 4em;
+    padding: 2em 2em;
+}

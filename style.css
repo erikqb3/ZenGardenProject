@@ -9,6 +9,37 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  color: #385155;
+  font-size: 7em;
+}
+
+h2 {
+  color: #53596F;
+  font-size: 6em;
+}
+
+h3 {
+  color: #5C7691;
+  font-size: 5em;
+}
+
+p {
+  color: #5C7691;
+  font-size: 3.5em;
+}
+
+a {
+  color: #5C7691;
+}
+
+.page-wrapper {
+  background-color: #E5E9F5;
+  opacity: 0.7;
+  margin: 4em 4em;
+  padding: 2em 2em;
+}
+
 body {
   background-image: url("/images/cherry-blossom-desktop.jpg");
   background-color: #D6AFC6;
