@@ -4,20 +4,20 @@ $font-headline: 'Nothing You Could Do', serif;
 $font-paragraph: 'Montserrat', sans-serif;
 // Font Colors
 $primary: #385155; //h1
-$accent1: #D6AFC6; //a
-$accent2: #53596F; //h2
+$accent1: #D6AFC6; //a:hover, a:active
+$accent2: #53596F; //h2, a
 $accent3: #E5E9F5; //semi-translucent background
 $accent4: #5C7691; //h3, p
 //Font Sizes
-$desktop-h1: 7em;
-$desktop-h2: 6em;
-$desktop-h3: 5em;
-$desktop-body: 3.5em;
+$desktop-h1: 5rem;
+$desktop-h2: 3rem;
+$desktop-h3: 2rem;
+$desktop-body: 1em;
 
-$mobile-h1: 4em;
-$mobile-h2: 3em;
-$mobile-h3: 2em;
-$mobile-body: 1.5em;
+$mobile-h1: 3rem;
+$mobile-h2: 2rem;
+$mobile-h3: 1.5rem;
+$mobile-body: 1rem;
 
 // Backgrounds
 $background-desktop: "/images/cherry-blossom-desktop.jpg";
