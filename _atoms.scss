@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@import "variables";
 
 h1,
 h2,
@@ -35,8 +35,8 @@ a {
 }
 
 .page-wrapper {
-    background-color: $accent3;
-    opacity: 0.7;
+    background-color: rgba($accent3,0.7);
+    // opacity: 0.7;
     margin: 4em 4em;
     padding: 2em 2em;
 }

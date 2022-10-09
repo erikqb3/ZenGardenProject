@@ -1,13 +1,24 @@
-@use "variables" as *;
-@use 'atoms' as at;
+@import "variables";
+@import 'atoms';
 @use 'molecules' as mo;
 @use 'organisms' as org;
 
-body {
-    background-image: url($background-desktop);
-    background-color: $accent1;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+@media only screen and (min-width:0px){
+    body {
+        background-image: url($background-mobile);
+        background-color: $accent1;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+} //MOBILE VIEW
+@media only screen and (min-width:768px){} //SMALL TABLET VIEW
+@media only screen and (min-width:992px){
+    body {
+        background-image: url($background-desktop)
+    }
+} //LARGE TABLET VIEW
+@media only screen and (min-width:1200px){} //DESKTOP VIEW
