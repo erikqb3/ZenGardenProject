@@ -22,6 +22,16 @@
     div#zen-benefits{}
     div#zen-requirements{}
     //ASIDE (Blue)
+
+    div#design-selection, 
+    div#design-archives, 
+    div#zen-resources{
+            ul{
+                
+                list-style: none;
+            }
+    }
+
     div#design-selection{}
     div#design-archives{}
     div#zen-resources{}
@@ -50,6 +60,15 @@
     div#zen-benefits{} // B3
     div#zen-requirements{} // B4
     //ASIDE (Blue)
+    div#design-selection, 
+    div#design-archives, 
+    div#zen-resources{
+            ul{
+                
+                list-style: none;
+            }
+    }
+    
     div#design-selection{} // C1
     div#design-archives{} // C2
     div#zen-resources{} // C3

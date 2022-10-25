@@ -49,6 +49,11 @@
   .zen-resources ul li a {
     font-size: 1em;
   }
+  div#design-selection ul,
+  div#design-archives ul,
+  div#zen-resources ul {
+    list-style: none;
+  }
   .main footer {
     text-align: center;
   }
@@ -56,7 +61,7 @@
     font-size: 1.8em;
   }
   .page-wrapper {
-    padding: 0 10vw;
+    padding: 0 7.5vw;
     border: 0em;
     display: -ms-grid;
     display: grid;
@@ -102,16 +107,16 @@
     background-color: rgba(255, 255, 255, 0.75);
     position: fixed;
     height: 100vh;
-    width: 80vw;
+    width: 92.5vw;
     top: 0%;
     left: 0;
-    margin-left: 90vw;
+    margin-left: 92.5vw;
     z-index: 1;
     -webkit-transition: margin-left 1s;
     transition: margin-left 1s;
   }
   .page-wrapper aside.sidebar div.wrapper:hover {
-    margin-left: 10vw;
+    margin-left: 7.5vw;
   }
   body {
     background-image: url("images/cherry-blossom-phone.jpg");
@@ -143,6 +148,11 @@
   .design-archives nav ul li a,
   .zen-resources ul li a {
     font-size: 1em;
+  }
+  div#design-selection ul,
+  div#design-archives ul,
+  div#zen-resources ul {
+    list-style: none;
   }
   .page-wrapper section.intro {
     background-color: rgba(0, 255, 255, 0.75);
