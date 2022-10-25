@@ -1,6 +1,6 @@
 @import "variables";
 
-@mixin mobile-settings{
+@mixin mobile-atoms{
     h1,
     h2,
     h3 {
@@ -49,8 +49,8 @@
     [role="article"] {
         background-color: rgba($accent3,0.7);
         // opacity: 0.7;
-        margin: 1em;
-        padding: 0.5em;
+        // margin: 1em;
+        // padding: 0.5em;
         transition: background-color 0.75s;
     }
     [role="article"]:hover{
@@ -58,7 +58,7 @@
     }
 
 }
-@mixin desktop-settings{
+@mixin desktop-atoms{
     h1,
     h2,
     h3 {

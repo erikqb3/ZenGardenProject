@@ -1,30 +1,61 @@
 @import "variables";
 
-.design-selection nav,
-.design-archives nav,
-.zen-resources {
-    ul {
-        li {
-            a {
-                font-size: $desktop-body;
+@mixin mobile-molecules{
+    .design-selection nav,
+    .design-archives nav,
+    .zen-resources {
+        ul {
+            li {
+                a {
+                    font-size: $desktop-body;
+                }
             }
         }
     }
-}
-
-//INTRO (Red)
+    //INTRO (Red)
     header{}
     div.summary{}
     div.preamble{}
-//MAIN (Green)
+    //MAIN (Green)
     div#zen-explanation{}
     div#zen-participation{}
     div#zen-benefits{}
     div#zen-requirements{}
-//ASIDE (Blue)
+    //ASIDE (Blue)
     div#design-selection{}
     div#design-archives{}
     div#zen-resources{}
+}
+
+
+@mixin desktop-molecules{
+    .design-selection nav,
+    .design-archives nav,
+    .zen-resources {
+        ul {
+            li {
+                a {
+                    font-size: $desktop-body;
+                }
+            }
+        }
+    }
+    //INTRO (Red)
+    header{} // A1
+    div.summary{} // A2
+    div.preamble{} // A3
+    //MAIN (Green)
+    div#zen-explanation{} // B1
+    div#zen-participation{} // B2
+    div#zen-benefits{} // B3
+    div#zen-requirements{} // B4
+    //ASIDE (Blue)
+    div#design-selection{} // C1
+    div#design-archives{} // C2
+    div#zen-resources{} // C3
+}
+
+
 
 
 
