@@ -35,16 +35,28 @@
         color: $accent4;
     }
 
-    .page-wrapper {
+    // .page-wrapper {
+    //     background-color: rgba($accent3,0.7);
+    //     // opacity: 0.7;
+    //     margin: 4em 4em;
+    //     padding: 2em 2em;
+    //     transition: background-color 0.75s;
+    // }
+    // .page-wrapper:hover{
+    //     background-color: rgba($accent3,0.8);
+    // }
+
+    [role="article"] {
         background-color: rgba($accent3,0.7);
         // opacity: 0.7;
-        margin: 4em 4em;
-        padding: 2em 2em;
+        margin: 1em;
+        padding: 0.5em;
         transition: background-color 0.75s;
     }
-    .page-wrapper:hover{
+    [role="article"]:hover{
         background-color: rgba($accent3,0.8);
     }
+
 }
 @mixin desktop-settings{
     h1,
@@ -79,13 +91,6 @@
 
     a {
         // color: $accent4;
-    }
-
-    .page-wrapper {
-        background-color: rgba($accent3,0.7);
-        // opacity: 0.7;
-        margin: 4em 4em;
-        padding: 2em 2em;
     }
 }
 

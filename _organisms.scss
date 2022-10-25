@@ -1,8 +1,67 @@
 @import "variables";
 
-.main footer {
-    text-align: center;
-    a {
-        font-size: $desktop-footer;
+@mixin mobile-organisms{
+    .main footer {
+        text-align: center;
+        a {
+            font-size: $desktop-footer;
+        }
     }
+    
+    .page-wrapper {
+        margin: 2em;
+        border: 0em;
+        display: grid;
+        grid-template-columns: repeat(1fr 6);
+        grid-gap: 2em;
+        section.intro{
+            background-color: rgba(255,0,0,0.75)
+        }
+        div.main{
+            background-color: rgba(0,255,0,0.75)
+        }
+        aside.sidebar{
+            background-color: rgba(0,0,255,0.75)
+        }
+    
+    }
+    
+    section.intro {
+        grid-column: 1 / 7;
+        grid-row:1;
+        padding: 1em;
+        z-index:0;
+    }
+    
+    aside.sidebar {
+        grid-column: 5 / 7;
+        grid-row:1;
+        padding: 1em;
+        z-index:1;
+        // margin-left: 100vw;
+    }
+    
+    div.main {
+        grid-column: 1 / 7;
+        grid-row: 2;
+        padding: 1em;
+    }
+
 }
+
+@mixin desktop-organisms{
+    section.intro {
+        background-color: rgba(0,255,255,0.75)
+    }
+    
+    aside.sidebar {
+        background-color: rgba(255,255,0,0.75)
+    }
+    
+    div.main {
+        background-color: rgba(255,0,255,0.75)
+    }
+    
+}
+
+

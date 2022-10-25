@@ -4,16 +4,18 @@
 @import 'organisms';
 
 
-@media only screen and (min-width:0px){
+@media only screen and (min-width:0px){ //MOBILE VIEW
     @include mobile-settings;
+    @include mobile-organisms;
     body {
         background-image: url($background-mobile);
         @include background-settings;
     }
-} //MOBILE VIEW
+} 
 @media only screen and (min-width:768px){} //SMALL TABLET VIEW
 @media only screen and (min-width:992px){
     @include desktop-settings;
+    @include desktop-organisms;
     body {
         background-image: url($background-desktop)
     }
