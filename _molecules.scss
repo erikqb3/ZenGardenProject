@@ -13,17 +13,48 @@
         }
     }
     //INTRO (Red)
-    header{}
-    div.summary{}
-    div.preamble{}
+    header{ //A1
+        h1{} //A1a
+        h2{} //A1b
+    }
+    div.summary{ //A2
+        p:nth-child(1){} //A2a 
+        p:nth-child(2){} //A2b
+    }
+    div.preamble{ //A3
+        h3{} //A3a
+        p:nth-child(2){} //A3b
+        p:nth-child(3){} //A3c
+        p:nth-child(4){} //A3d
+    }
     //MAIN (Green)
-    div#zen-explanation{}
-    div#zen-participation{}
-    div#zen-benefits{}
-    div#zen-requirements{}
-    //ASIDE (Blue)
+    div#zen-explanation{ //B1
+        h3{} //B1a
+        p:nth-child(2){} //B1b
+        p:nth-child(3){} //B1c
+    }
+    div#zen-participation{ //B2
+        h3{} //B2a
+        p:nth-child(2){} //B2b
+        p:nth-child(3){} //B2c
+        p:nth-child(4){} //B2d
+    }
+    div#zen-benefits{ //B3
+        h3{} //B3a
+        p:nth-child(2){} //B3b
+    }
+    div#zen-requirements{ //B4
+        h3{} //B4a
+        p:nth-child(2){} //B4b
+        p:nth-child(3){} //B4c
+        p:nth-child(4){} //B4d
+        p:nth-child(5){} //B4e
+        p:nth-child(6){} //B4f
+    }
+    footer{} //B5
+    //ASIDE (B    lue)
 
-    div#design-selection, 
+    div#design-selection,  
     div#design-archives, 
     div#zen-resources{
             ul{
@@ -32,8 +63,8 @@
             }
     }
 
-    div#design-selection{}
-    div#design-archives{}
+    div#design-selection{} //C1
+    div#design-archives{} //C2
     div#zen-resources{}
 }
 
@@ -68,7 +99,7 @@
                 list-style: none;
             }
     }
-    
+
     div#design-selection{} // C1
     div#design-archives{} // C2
     div#zen-resources{} // C3

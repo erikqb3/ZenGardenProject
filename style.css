@@ -92,7 +92,7 @@
     grid-row: 2;
   }
   .page-wrapper aside.sidebar {
-    background-color: rgba(0, 0, 255, 0.75);
+    background-color: rgba(0, 0, 255, 0);
     -ms-grid-column: 1;
     -ms-grid-column-span: 6;
     grid-column: 1 / 7;
