@@ -10,22 +10,24 @@
     
     .page-wrapper {
         // margin: 2em;
-        padding: 0 7.5vw;
+        padding: 5vw 15vw 5vw 5vw;
         border: 0em;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
+        background-color: rgba(255,255,255,0.75);
 
         section.intro{
-            background-color: rgba(255,0,0,0.75);
+            // background-color: rgba(255,255,255,0.75);
             grid-column: 1 / 7;
             grid-row:1;
         }
         div.main{
-            background-color: rgba(0,255,0,0.75);
+            // background-color: rgba(255,255,255,0.75);
             grid-column: 1 / 7;
             grid-row: 2 / 4;
         }
         aside.sidebar{
+            padding: 5vw 0;
             background-color: rgba(0,0,255,0);
             grid-column: 1 / 7;
             grid-row:1/2;
@@ -35,17 +37,17 @@
             div.wrapper{
                 background-color: rgba(255,255,255,0.75);
                 position: fixed;
-                height: 60vh;
+                height: 100vh;
                 width: 72.5vw;
                 top:0%;
                 left:0;
-                margin-left: 72.5vw;
+                // margin-left: 72.5vw;
                 // left: 90%;
                 z-index:1;
-                transition: margin-left 1s;
+                // transition: margin-left 1s;
             }
             div.wrapper:hover {
-                margin-left: 14vw;
+                // margin-left: 14vw;
             }
         }
         // aside.sidebar:hover{
@@ -63,20 +65,20 @@
 @mixin desktop-organisms{
     .page-wrapper { 
         section.intro {
-            background-color: rgba(0,255,255,0.75);
+            // background-color: rgba(0,255,255,0.75);
         }        
         div.main {
-            background-color: rgba(255,0,255,0.75);
+            // background-color: rgba(255,0,255,0.75);
         }
         aside.sidebar {
-            background-color: rgba(255,255,0,0.75);
+            // background-color: rgba(255,255,0,0.75);
             grid-column: 5 / 7;
             div.wrapper{
                 position:initial;
                 margin-left:0;
             }
             div.wrapper:hover{
-                margin-left:0;
+                // margin-left:0;
             }
         }
     }   
