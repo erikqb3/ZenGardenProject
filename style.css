@@ -92,6 +92,17 @@ footer {
   }
   .intro header h1 {
     grid-column: 1/5;
+    background-image: url("images/whiteBox.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.75s, color 0.75s;
+  }
+  .intro header h1:hover,
+.intro header h1:active,
+.intro header h1[ontouchstart] {
+    background-image: url("images/picture.jpg");
+    color: transparent;
   }
   .intro header h2 {
     grid-column: 5/7;
@@ -283,9 +294,6 @@ div#zen-resources ul {
   }
   .intro header h1 {
     grid-column: 1/5;
-  }
-  .intro header h1:hover {
-    background-image: url("images/picture.jpg");
   }
   .intro header h2 {
     grid-column: 5/7;
