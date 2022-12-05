@@ -284,6 +284,9 @@ div#zen-resources ul {
   .intro header h1 {
     grid-column: 1/5;
   }
+  .intro header h1:hover {
+    background-image: url("images/picture.jpg");
+  }
   .intro header h2 {
     grid-column: 5/7;
   }
