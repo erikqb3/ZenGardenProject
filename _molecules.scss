@@ -47,11 +47,6 @@
 
     //INTRO (Red)
     .intro {
-        header {}
-        .summary{}
-    }
-
-    .intro {
         grid-column: 1 / 7;
         header{ //A1
             display: grid;
@@ -61,19 +56,7 @@
             margin-bottom: 5px;
             // margin: 2.5px;
             //A1a + A1b
-            h1{ 
-                grid-column: 1/5;
-                background-image: url('images/whiteBox.png');
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size:cover;
-                transition: background-image 0.75s, color 0.75s; }
-            h1:hover,
-            h1:active,
-            h1[ontouchstart]{
-                background-image: url("images/picture.jpg");
-                color:transparent;
-            }
+            h1{ grid-column: 1/5}
             h2 {
                 grid-column: 5 / 7;
             }
@@ -244,18 +227,17 @@
     //INTRO (Red)
     .intro {
         header{ //A1
-            h1 {
-                grid-column: 1 / 5;
-
-            }
+            h1,
             h2 {
-                grid-column: 5 / 7;
+                grid-column: 1 / 5;
             }
         }
         .summary { //A2
-            p:nth-child(1),
+            p:nth-child(1) {
+                grid-column: 1 / 4;
+            }
             p:nth-child(2) { //A2a + //A2b
-                grid-column: 1 / 7 ;
+                grid-column: 4 / 7 ;
             }
         }
         .preamble{ //A3
@@ -264,13 +246,12 @@
             } //A3a
             p:nth-child(2){
                 grid-column: 1 / 3;
-                grid-row: span 2;
             } //A3b
             p:nth-child(3){
-                grid-column: 3 / 7;
+                grid-column: 3 / 5;
             } //A3c
             p:nth-child(4){
-                grid-column: 3 / 7;
+                grid-column: 5 / 7;
             } //A3d
         }
     } 
@@ -287,16 +268,23 @@
         }
         .participation{ //B2
             h3{
-                grid-column: 1 / 3;
+                grid-column: 1 / 2;
+                grid-row: 7 / 10;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                text-align: center;
             } //B2a
             p:nth-child(2){
-                grid-column: 1 / 3;
+                grid-column: 2 / 4;
+                grid-row: 7 / 8;
             } //B2b
             p:nth-child(3){
-                grid-column: 3 / 5;
+                grid-column: 4 / 6;
+                grid-row: 8 / 9;
             } //B2c
             p:nth-child(4){
-                grid-column: 5 / 7;
+                grid-column: 6 / 7;
+                grid-row: 9 / 10;
             } //B2d
         }
         .benefits{ //B3
@@ -312,16 +300,16 @@
                 grid-column: 1 / 7;
             } //B4a
             p:nth-child(2){
-                grid-column: 1 / 4;
+                grid-column: 1 / 5;
             } //B4b
             p:nth-child(3){
-                grid-column: 4 / 7;
+                grid-column: 1 / 7;
             } //B4c
             p:nth-child(4){
-                grid-column: 1 / 3;
+                grid-column: 5 / 7;
             } //B4d
             p:nth-child(5){
-                grid-column: 3 / 5;
+                grid-column: 1 / 5;
             } //B4e
             p:nth-child(6){
                 grid-column: 5 / 7;
@@ -331,7 +319,7 @@
             grid-column: 1 / 7;
         } //B5
     }
-    // //ASIDE (Blue)
+    //ASIDE (Blue)
     div#design-selection, 
     div#design-archives, 
     div#zen-resources{
