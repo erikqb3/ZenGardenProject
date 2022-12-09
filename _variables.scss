@@ -28,6 +28,7 @@ $background-mobile: "images/cherry-blossom-phone.jpg";
 @mixin background-settings {
   background-color: $accent1;
   height: 100vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
