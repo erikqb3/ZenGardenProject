@@ -260,6 +260,11 @@ div#zen-resources ul {
 .intro .summary p:nth-child(2):active a {
     color: transparent;
   }
+  .intro .preamble h3:hover,
+.intro .preamble h3:active {
+    background-image: url("images/text1.png");
+    color: transparent;
+  }
   .intro .preamble p:nth-child(2):hover,
 .intro .preamble p:nth-child(2):active {
     background-image: url("images/panel5.png");
@@ -273,6 +278,15 @@ div#zen-resources ul {
   .intro .preamble p:nth-child(4):hover,
 .intro .preamble p:nth-child(4):active {
     background-image: url("images/panel7.png");
+    color: transparent;
+  }
+  .main .explanation h3:hover,
+.main .explanation h3:active {
+    background-image: url("images/text2.png");
+    color: transparent;
+  }
+  .main .explanation h3:hover a,
+.main .explanation h3:active a {
     color: transparent;
   }
   .main .explanation p:nth-child(2):hover,
@@ -291,6 +305,11 @@ div#zen-resources ul {
   }
   .main .explanation p:nth-child(3):hover a,
 .main .explanation p:nth-child(3):active a {
+    color: transparent;
+  }
+  .main .participation h3:hover,
+.main .participation h3:active {
+    background-image: url("images/text3.png");
     color: transparent;
   }
   .main .participation p:nth-child(2):hover,
@@ -338,6 +357,11 @@ div#zen-resources ul {
 .main .benefits p:nth-child(2):active a {
     color: transparent;
   }
+  .main .requirements h3:hover,
+.main .requirements h3:active {
+    background-image: url("images/text4.png");
+    color: transparent;
+  }
   .main .requirements p:nth-child(2):hover,
 .main .requirements p:nth-child(2):active {
     background-image: url("images/panel17.png");
@@ -383,8 +407,14 @@ div#zen-resources ul {
 .main .requirements p:nth-child(6):active a {
     color: transparent;
   }
-  .main footer {
-    background-color: whitem;
+  .main footer:hover,
+.main footer:active {
+    background-image: url("images/text5.png");
+    color: transparent;
+  }
+  .main footer:hover a,
+.main footer:active a {
+    color: transparent;
   }
   aside:hover,
 aside:active {
