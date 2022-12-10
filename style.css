@@ -284,9 +284,18 @@ div#zen-resources ul {
 .main .explanation p:nth-child(2):active a {
     color: transparent;
   }
+  .main .explanation p:nth-child(3):hover,
+.main .explanation p:nth-child(3):active {
+    background-image: url("images/panel11.png");
+    color: transparent;
+  }
+  .main .explanation p:nth-child(3):hover a,
+.main .explanation p:nth-child(3):active a {
+    color: transparent;
+  }
   .main .participation p:nth-child(2):hover,
 .main .participation p:nth-child(2):active {
-    background-image: url("images/panel11.png");
+    background-image: url("images/panel12.png");
     color: transparent;
   }
   .main .participation p:nth-child(2):hover a,
@@ -295,7 +304,7 @@ div#zen-resources ul {
   }
   .main .participation p:nth-child(3):hover,
 .main .participation p:nth-child(3):active {
-    background-image: url("images/panel12.png");
+    background-image: url("images/panel13.png");
     color: transparent;
   }
   .main .participation p:nth-child(3):hover a,
@@ -304,7 +313,7 @@ div#zen-resources ul {
   }
   .main .participation p:nth-child(4):hover,
 .main .participation p:nth-child(4):active {
-    background-image: url("images/panel13.png");
+    background-image: url("images/panel14.png");
     color: transparent;
   }
   .main .participation p:nth-child(4):hover a,
@@ -313,7 +322,7 @@ div#zen-resources ul {
   }
   .main .benefits h3:hover,
 .main .benefits h3:active {
-    background-image: url("images/panel14.png");
+    background-image: url("images/panel15.png");
     color: transparent;
   }
   .main .benefits h3:hover a,
@@ -322,7 +331,7 @@ div#zen-resources ul {
   }
   .main .benefits p:nth-child(2):hover,
 .main .benefits p:nth-child(2):active {
-    background-image: url("images/panel15.png");
+    background-image: url("images/panel16.png");
     color: transparent;
   }
   .main .benefits p:nth-child(2):hover a,
@@ -331,7 +340,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(2):hover,
 .main .requirements p:nth-child(2):active {
-    background-image: url("images/panel16.png");
+    background-image: url("images/panel17.png");
     color: transparent;
   }
   .main .requirements p:nth-child(2):hover a,
@@ -340,7 +349,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(3):hover,
 .main .requirements p:nth-child(3):active {
-    background-image: url("images/panel17.png");
+    background-image: url("images/panel18.png");
     color: transparent;
   }
   .main .requirements p:nth-child(3):hover a,
@@ -349,7 +358,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(4):hover,
 .main .requirements p:nth-child(4):active {
-    background-image: url("images/panel18.png");
+    background-image: url("images/panel19.png");
     color: transparent;
   }
   .main .requirements p:nth-child(4):hover a,
@@ -358,7 +367,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(5):hover,
 .main .requirements p:nth-child(5):active {
-    background-image: url("images/panel19.png");
+    background-image: url("images/panel20.png");
     color: transparent;
   }
   .main .requirements p:nth-child(5):hover a,
@@ -367,7 +376,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(6):hover,
 .main .requirements p:nth-child(6):active {
-    background-image: url("images/panel20.png");
+    background-image: url("images/panel21.png");
     color: transparent;
   }
   .main .requirements p:nth-child(6):hover a,
@@ -375,7 +384,7 @@ div#zen-resources ul {
     color: transparent;
   }
   .main footer {
-    background-color: blue;
+    background-color: red;
   }
   aside:hover,
 aside:active {
