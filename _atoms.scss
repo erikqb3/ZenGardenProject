@@ -33,6 +33,8 @@
 
     a {
         color: $accent4;
+        font-size: $mobile-body;
+        text-decoration: none;
     }
 }
 @mixin desktop-atoms{
@@ -49,7 +51,8 @@
         font-size: $desktop-h3;
     }
 
-    p {
+    p,
+    a {
         font-size: $desktop-body;
     }
 }

@@ -41,6 +41,8 @@ h3 {
   }
   a {
     color: #5C7691;
+    font-size: 0.6rem;
+    text-decoration: none;
   }
   * {
     transition: all 0.75s;
@@ -210,7 +212,40 @@ div#zen-resources ul {
     text-align: center;
   }
   .main footer a {
-    font-size: 1.8em;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 100%;
+    color: transparent;
+  }
+  .main footer .zen-validate-html {
+    background-image: url("./images/html.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main footer .zen-validate-css {
+    background-image: url("./images/css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main footer .zen-license {
+    background-image: url("./images/cc.xlarge.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main footer .zen-accessibility {
+    background-image: url("./images/Ally.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main footer .zen-github {
+    background-image: url("./images/github-mark.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .page-wrapper {
     padding: 0rem;
@@ -316,7 +351,8 @@ aside:active .wrapper {
   h3 {
     font-size: 2rem;
   }
-  p {
+  p,
+a {
     font-size: 1em;
   }
   .design-selection nav ul li a,
@@ -355,8 +391,7 @@ aside:active .wrapper {
   div.main .participation h3 {
     grid-column: 1/2;
     grid-row: 7/10;
-    -ms-writing-mode: tb-rl;
-        writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
   }
@@ -415,6 +450,9 @@ div#zen-resources ul {
     list-style: none;
     margin-bottom: 2.5rem;
   }
+  .main footer a {
+    font-size: 1.8rem;
+  }
   .page-wrapper {
     width: 70%;
     margin: 2rem auto;
@@ -438,4 +476,6 @@ div#zen-resources ul {
   body {
     background-image: url("images/cherry-blossom-desktop.jpg");
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
