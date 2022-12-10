@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +42,9 @@ h3 {
   a {
     color: #5C7691;
   }
+  * {
+    transition: all 0.75s;
+  }
   .design-selection nav ul li a,
 .design-archives nav ul li a,
 .zen-resources ul li a {
@@ -70,7 +74,10 @@ h3 {
 .requirements > p:nth-child(6),
 footer,
 aside {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-image: url("./images/whiteBox.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2.5px solid black;
     padding: 0.9rem;
     margin: 0.7rem;
@@ -229,6 +236,63 @@ div#zen-resources ul {
     overflow: hidden;
     top: 0;
   }
+  .intro header:hover,
+.intro header:active {
+    background-image: url("/images/panel1.png");
+  }
+  .intro header:hover h1,
+.intro header:hover h2,
+.intro header:active h1,
+.intro header:active h2 {
+    color: transparent;
+  }
+  .intro .summary p:nth-child(1):hover,
+.intro .summary p:nth-child(1):active {
+    background-image: url("/images/panel2.png");
+    color: transparent;
+  }
+  .intro .summary p:nth-child(2):hover,
+.intro .summary p:nth-child(2):active {
+    background-image: url("/images/panel3.png");
+    color: transparent;
+  }
+  .intro .summary p:nth-child(2):hover a,
+.intro .summary p:nth-child(2):active a {
+    color: transparent;
+  }
+  .intro .preamble p:nth-child(2):hover,
+.intro .preamble p:nth-child(2):active {
+    background-image: url("/images/panel5.png");
+    color: transparent;
+  }
+  .intro .preamble p:nth-child(3):hover,
+.intro .preamble p:nth-child(3):active {
+    background-image: url("/images/panel6.png");
+    color: transparent;
+  }
+  .intro .preamble p:nth-child(4):hover,
+.intro .preamble p:nth-child(4):active {
+    background-image: url("/images/panel7.png");
+    color: transparent;
+  }
+  .main .explanation p:nth-child(2):hover,
+.main .explanation p:nth-child(2):active {
+    background-image: url("/images/panel10.png");
+    color: transparent;
+  }
+  .main .explanation p:nth-child(2):hover a,
+.main .explanation p:nth-child(2):active a {
+    color: transparent;
+  }
+  aside:hover,
+aside:active {
+    background-image: url("/images/panel8.png");
+    color: transparent;
+  }
+  aside:hover .wrapper,
+aside:active .wrapper {
+    opacity: 0;
+  }
   body {
     background-image: url("images/cherry-blossom-phone.jpg");
     overflow-x: hidden;
@@ -291,7 +355,8 @@ div#zen-resources ul {
   div.main .participation h3 {
     grid-column: 1/2;
     grid-row: 7/10;
-    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
   }
@@ -307,29 +372,39 @@ div#zen-resources ul {
     grid-column: 5/7;
     grid-row: 9/10;
   }
+  div.main .benefits {
+    height: 15%;
+  }
   div.main .benefits h3 {
-    grid-column: 1/2;
+    grid-column: 1/3;
   }
   div.main .benefits p:nth-child(2) {
-    grid-column: 2/7;
+    grid-column: 3/7;
   }
   div.main .requirements h3 {
     grid-column: 1/7;
+    background-color: red;
   }
   div.main .requirements p:nth-child(2) {
-    grid-column: 1/5;
+    grid-column: 1/3;
+    background-color: orange;
   }
   div.main .requirements p:nth-child(3) {
-    grid-column: 1/7;
+    grid-column: 3/7;
+    background-color: yellow;
   }
   div.main .requirements p:nth-child(4) {
-    grid-column: 5/7;
+    grid-column: 1/5;
+    background-color: green;
   }
   div.main .requirements p:nth-child(5) {
     grid-column: 1/5;
+    background-color: blue;
   }
   div.main .requirements p:nth-child(6) {
     grid-column: 5/7;
+    grid-row: span 2;
+    background-color: indigo;
   }
   div.main footer {
     grid-column: 1/7;
@@ -338,6 +413,11 @@ div#zen-resources ul {
 div#design-archives ul,
 div#zen-resources ul {
     list-style: none;
+    margin-bottom: 2.5rem;
+  }
+  .page-wrapper {
+    width: 70%;
+    margin: 2rem auto;
   }
   .page-wrapper section.intro {
     grid-column: 1/5;
@@ -348,7 +428,6 @@ div#zen-resources ul {
     grid-row: 1/2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
     overflow: visible;
   }
@@ -359,6 +438,4 @@ div#zen-resources ul {
   body {
     background-image: url("images/cherry-blossom-desktop.jpg");
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
