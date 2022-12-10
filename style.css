@@ -238,7 +238,7 @@ div#zen-resources ul {
   }
   .intro header:hover,
 .intro header:active {
-    background-image: url("/images/panel1.png");
+    background-image: url("images/panel1.png");
   }
   .intro header:hover h1,
 .intro header:hover h2,
@@ -248,12 +248,12 @@ div#zen-resources ul {
   }
   .intro .summary p:nth-child(1):hover,
 .intro .summary p:nth-child(1):active {
-    background-image: url("/images/panel2.png");
+    background-image: url("images/panel2.png");
     color: transparent;
   }
   .intro .summary p:nth-child(2):hover,
 .intro .summary p:nth-child(2):active {
-    background-image: url("/images/panel3.png");
+    background-image: url("images/panel3.png");
     color: transparent;
   }
   .intro .summary p:nth-child(2):hover a,
@@ -262,22 +262,22 @@ div#zen-resources ul {
   }
   .intro .preamble p:nth-child(2):hover,
 .intro .preamble p:nth-child(2):active {
-    background-image: url("/images/panel5.png");
+    background-image: url("images/panel5.png");
     color: transparent;
   }
   .intro .preamble p:nth-child(3):hover,
 .intro .preamble p:nth-child(3):active {
-    background-image: url("/images/panel6.png");
+    background-image: url("images/panel6.png");
     color: transparent;
   }
   .intro .preamble p:nth-child(4):hover,
 .intro .preamble p:nth-child(4):active {
-    background-image: url("/images/panel7.png");
+    background-image: url("images/panel7.png");
     color: transparent;
   }
   .main .explanation p:nth-child(2):hover,
 .main .explanation p:nth-child(2):active {
-    background-image: url("/images/panel10.png");
+    background-image: url("images/panel10.png");
     color: transparent;
   }
   .main .explanation p:nth-child(2):hover a,
@@ -286,7 +286,7 @@ div#zen-resources ul {
   }
   .main .participation p:nth-child(2):hover,
 .main .participation p:nth-child(2):active {
-    background-image: url("/images/panel11.png");
+    background-image: url("images/panel11.png");
     color: transparent;
   }
   .main .participation p:nth-child(2):hover a,
@@ -295,7 +295,7 @@ div#zen-resources ul {
   }
   .main .participation p:nth-child(3):hover,
 .main .participation p:nth-child(3):active {
-    background-image: url("/images/panel12.png");
+    background-image: url("images/panel12.png");
     color: transparent;
   }
   .main .participation p:nth-child(3):hover a,
@@ -304,7 +304,7 @@ div#zen-resources ul {
   }
   .main .participation p:nth-child(4):hover,
 .main .participation p:nth-child(4):active {
-    background-image: url("/images/panel13.png");
+    background-image: url("images/panel13.png");
     color: transparent;
   }
   .main .participation p:nth-child(4):hover a,
@@ -313,7 +313,7 @@ div#zen-resources ul {
   }
   .main .benefits h3:hover,
 .main .benefits h3:active {
-    background-image: url("/images/panel14.png");
+    background-image: url("images/panel14.png");
     color: transparent;
   }
   .main .benefits h3:hover a,
@@ -322,7 +322,7 @@ div#zen-resources ul {
   }
   .main .benefits p:nth-child(2):hover,
 .main .benefits p:nth-child(2):active {
-    background-image: url("/images/panel15.png");
+    background-image: url("images/panel15.png");
     color: transparent;
   }
   .main .benefits p:nth-child(2):hover a,
@@ -331,7 +331,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(2):hover,
 .main .requirements p:nth-child(2):active {
-    background-image: url("/images/panel16.png");
+    background-image: url("images/panel16.png");
     color: transparent;
   }
   .main .requirements p:nth-child(2):hover a,
@@ -340,7 +340,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(3):hover,
 .main .requirements p:nth-child(3):active {
-    background-image: url("/images/panel17.png");
+    background-image: url("images/panel17.png");
     color: transparent;
   }
   .main .requirements p:nth-child(3):hover a,
@@ -349,7 +349,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(4):hover,
 .main .requirements p:nth-child(4):active {
-    background-image: url("/images/panel18.png");
+    background-image: url("images/panel18.png");
     color: transparent;
   }
   .main .requirements p:nth-child(4):hover a,
@@ -358,7 +358,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(5):hover,
 .main .requirements p:nth-child(5):active {
-    background-image: url("/images/panel19.png");
+    background-image: url("images/panel19.png");
     color: transparent;
   }
   .main .requirements p:nth-child(5):hover a,
@@ -367,7 +367,7 @@ div#zen-resources ul {
   }
   .main .requirements p:nth-child(6):hover,
 .main .requirements p:nth-child(6):active {
-    background-image: url("/images/panel20.png");
+    background-image: url("images/panel20.png");
     color: transparent;
   }
   .main .requirements p:nth-child(6):hover a,
@@ -379,7 +379,7 @@ div#zen-resources ul {
   }
   aside:hover,
 aside:active {
-    background-image: url("/images/panel8.png");
+    background-image: url("images/panel8.png");
     color: transparent;
   }
   aside:hover .wrapper,

@@ -48,7 +48,7 @@
         }
         header:hover,
         header:active{
-          background-image: url('/images/panel1.png');
+          background-image: url('images/panel1.png');
           h1,
           h2{
             color:transparent;
@@ -59,13 +59,13 @@
             
             p:nth-child(1):hover,
             p:nth-child(1):active { //A2a
-              background-image: url('/images/panel2.png');
+              background-image: url('images/panel2.png');
               color:transparent;
                  
             }
             p:nth-child(2):hover,
             p:nth-child(2):active { //A2b
-              background-image: url('/images/panel3.png');
+              background-image: url('images/panel3.png');
               color:transparent;
               a {
                 color:transparent;
@@ -80,19 +80,19 @@
             } //A3a
             p:nth-child(2):hover,
             p:nth-child(2):active{
-              background-image: url('/images/panel5.png');
+              background-image: url('images/panel5.png');
               color:transparent;
     
             } //A3b
             p:nth-child(3):hover,
             p:nth-child(3):active{
-              background-image: url('/images/panel6.png');
+              background-image: url('images/panel6.png');
               color:transparent;
 
             } //A3c
             p:nth-child(4):hover,
             p:nth-child(4):active{
-              background-image: url('/images/panel7.png');
+              background-image: url('images/panel7.png');
               color:transparent;
 
             } //A3d
@@ -109,7 +109,7 @@
             } //B1a
             p:nth-child(2):hover,
             p:nth-child(2):active{
-              background-image: url('/images/panel10.png');
+              background-image: url('images/panel10.png');
               color:transparent;
               a {
                 color:transparent;
@@ -132,7 +132,7 @@
             } //B2a
             p:nth-child(2):hover,
             p:nth-child(2):active{
-              background-image: url('/images/panel11.png');
+              background-image: url('images/panel11.png');
               color:transparent;
               a {
                 color:transparent;
@@ -141,7 +141,7 @@
             } //B2b
             p:nth-child(3):hover,
             p:nth-child(3):active{
-              background-image: url('/images/panel12.png');
+              background-image: url('images/panel12.png');
               color:transparent;
               a {
                 color:transparent;
@@ -151,7 +151,7 @@
             } //B2c
             p:nth-child(4):hover,
             p:nth-child(4):active{
-              background-image: url('/images/panel13.png');
+              background-image: url('images/panel13.png');
               color:transparent;
               a {
                 color:transparent;
@@ -164,7 +164,7 @@
             
             h3:hover,
             h3:active{
-              background-image: url('/images/panel14.png');
+              background-image: url('images/panel14.png');
               color:transparent;
               a {
                 color:transparent;
@@ -172,7 +172,7 @@
             }
             p:nth-child(2):hover,
             p:nth-child(2):active{
-              background-image: url('/images/panel15.png');
+              background-image: url('images/panel15.png');
               color:transparent;
               a {
                 color:transparent;
@@ -188,7 +188,7 @@
             } //B4a
             p:nth-child(2):hover,
             p:nth-child(2):active{
-              background-image: url('/images/panel16.png');
+              background-image: url('images/panel16.png');
               color:transparent;
               a {
                 color:transparent;
@@ -197,7 +197,7 @@
             } //B4b
             p:nth-child(3):hover,
             p:nth-child(3):active{
-              background-image: url('/images/panel17.png');
+              background-image: url('images/panel17.png');
               color:transparent;
               a {
                 color:transparent;
@@ -206,7 +206,7 @@
             } //B4c
             p:nth-child(4):hover,
             p:nth-child(4):active{
-              background-image: url('/images/panel18.png');
+              background-image: url('images/panel18.png');
               color:transparent;
               a {
                 color:transparent;
@@ -215,7 +215,7 @@
             } //B4d
             p:nth-child(5):hover,
             p:nth-child(5):active{
-              background-image: url('/images/panel19.png');
+              background-image: url('images/panel19.png');
               color:transparent;
               a {
                 color:transparent;
@@ -224,7 +224,7 @@
             } //B4e
             p:nth-child(6):hover,
             p:nth-child(6):active {
-              background-image: url('/images/panel20.png');
+              background-image: url('images/panel20.png');
               color:transparent;
               a {
                 color:transparent;
@@ -248,7 +248,7 @@
     }
     aside:hover,
     aside:active{
-      background-image: url('/images/panel8.png');
+      background-image: url('images/panel8.png');
       color:transparent;
       .wrapper {
         opacity:0;
