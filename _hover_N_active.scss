@@ -204,12 +204,22 @@
               }
                 
             } //B4c
-            p:nth-child(4){
-                
+            p:nth-child(4):hover,
+            p:nth-child(4):active{
+              background-image: url('/images/panel18.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
             
             } //B4d
-            p:nth-child(5){
-                
+            p:nth-child(5):hover,
+            p:nth-child(5):active{
+              background-image: url('/images/panel19.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
                 
             } //B4e
             p:nth-child(6){

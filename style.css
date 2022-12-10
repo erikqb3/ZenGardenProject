@@ -347,6 +347,24 @@ div#zen-resources ul {
 .main .requirements p:nth-child(3):active a {
     color: transparent;
   }
+  .main .requirements p:nth-child(4):hover,
+.main .requirements p:nth-child(4):active {
+    background-image: url("/images/panel18.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(4):hover a,
+.main .requirements p:nth-child(4):active a {
+    color: transparent;
+  }
+  .main .requirements p:nth-child(5):hover,
+.main .requirements p:nth-child(5):active {
+    background-image: url("/images/panel19.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(5):hover a,
+.main .requirements p:nth-child(5):active a {
+    color: transparent;
+  }
   aside:hover,
 aside:active {
     background-image: url("/images/panel8.png");
