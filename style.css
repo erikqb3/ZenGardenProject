@@ -450,6 +450,7 @@ div#zen-resources ul {
   .main footer:hover a,
 .main footer:active a {
     color: transparent;
+    opacity: 0;
   }
   aside:hover,
 aside:active {
@@ -523,7 +524,8 @@ a {
   div.main .participation h3 {
     grid-column: 1/2;
     grid-row: 7/10;
-    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
   }
@@ -602,7 +604,4 @@ div#zen-resources ul {
   body {
     background-image: url("images/cherry-blossom-desktop.jpg");
   }
-  
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
