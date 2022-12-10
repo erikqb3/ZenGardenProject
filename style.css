@@ -365,6 +365,18 @@ div#zen-resources ul {
 .main .requirements p:nth-child(5):active a {
     color: transparent;
   }
+  .main .requirements p:nth-child(6):hover,
+.main .requirements p:nth-child(6):active {
+    background-image: url("/images/panel20.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(6):hover a,
+.main .requirements p:nth-child(6):active a {
+    color: transparent;
+  }
+  .main footer {
+    background-color: red;
+  }
   aside:hover,
 aside:active {
     background-image: url("/images/panel8.png");
