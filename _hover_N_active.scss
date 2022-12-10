@@ -74,8 +74,11 @@
         }
         .preamble { //A3
             
-            h3{
-                
+            h3:hover,
+            h3:active{
+              background-image: url('images/text1.png');
+              color:transparent;
+
 
             } //A3a
             p:nth-child(2):hover,
@@ -103,8 +106,13 @@
         
         .explanation{ //B1
             
-            h3{
-                
+            h3:hover,
+            h3:active{
+              background-image: url('images/text2.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
                 
             } //B1a
             p:nth-child(2):hover,
@@ -130,8 +138,10 @@
 
         .participation{ //B2
             
-            h3{
-                
+            h3:hover,
+            h3:active{
+              background-image: url('images/text3.png');
+              color:transparent;
                 
             } //B2a
             p:nth-child(2):hover,
@@ -186,9 +196,10 @@
         }
         .requirements{ //B4
            
-            h3{
-                
-                
+            h3:hover,
+            h3:active{
+              background-image: url('images/text4.png');
+              color:transparent;
             } //B4a
             p:nth-child(2):hover,
             p:nth-child(2):active{
@@ -236,10 +247,14 @@
                 
             } //B4f
         }
-        footer{
-            background-color: whitem;
-
-            
+        footer:hover,
+        footer:active{
+          background-image: url('images/text5.png');
+          color:transparent;
+          a {
+            color:transparent;
+            opacity:0;
+          }
         }
     } //B5
 
