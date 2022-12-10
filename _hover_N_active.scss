@@ -117,8 +117,9 @@
                 
             
             } //B1b
-            p:nth-child(3){
-                
+            p:nth-child(3):hover,
+            p:nth-child(3):active{
+
             
             } //B1c
         }
@@ -129,26 +130,53 @@
                 
                 
             } //B2a
-            p:nth-child(2){
-               
+            p:nth-child(2):hover,
+            p:nth-child(2):active{
+              background-image: url('/images/panel11.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
                 
             } //B2b
-            p:nth-child(3){
-                
+            p:nth-child(3):hover,
+            p:nth-child(3):active{
+              background-image: url('/images/panel12.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
+                 
                 
             } //B2c
-            p:nth-child(4){
-                
+            p:nth-child(4):hover,
+            p:nth-child(4):active{
+              background-image: url('/images/panel13.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
+                 
                 
             } //B2d
         }
         .benefits{ //B3
             
-            h3{
-               
+            h3:hover,
+            h3:active{
+              background-image: url('/images/panel14.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
             }
-            p:nth-child(2){
-                
+            p:nth-child(2):hover,
+            p:nth-child(2):active{
+              background-image: url('/images/panel15.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
                 
             } //B3a + 3b
         }
@@ -158,12 +186,22 @@
                 
                 
             } //B4a
-            p:nth-child(2){
-                
+            p:nth-child(2):hover,
+            p:nth-child(2):active{
+              background-image: url('/images/panel16.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
                 
             } //B4b
-            p:nth-child(3){
-                
+            p:nth-child(3):hover,
+            p:nth-child(3):active{
+              background-image: url('/images/panel17.png');
+              color:transparent;
+              a {
+                color:transparent;
+              }
                 
             } //B4c
             p:nth-child(4){

@@ -284,6 +284,69 @@ div#zen-resources ul {
 .main .explanation p:nth-child(2):active a {
     color: transparent;
   }
+  .main .participation p:nth-child(2):hover,
+.main .participation p:nth-child(2):active {
+    background-image: url("/images/panel11.png");
+    color: transparent;
+  }
+  .main .participation p:nth-child(2):hover a,
+.main .participation p:nth-child(2):active a {
+    color: transparent;
+  }
+  .main .participation p:nth-child(3):hover,
+.main .participation p:nth-child(3):active {
+    background-image: url("/images/panel12.png");
+    color: transparent;
+  }
+  .main .participation p:nth-child(3):hover a,
+.main .participation p:nth-child(3):active a {
+    color: transparent;
+  }
+  .main .participation p:nth-child(4):hover,
+.main .participation p:nth-child(4):active {
+    background-image: url("/images/panel13.png");
+    color: transparent;
+  }
+  .main .participation p:nth-child(4):hover a,
+.main .participation p:nth-child(4):active a {
+    color: transparent;
+  }
+  .main .benefits h3:hover,
+.main .benefits h3:active {
+    background-image: url("/images/panel14.png");
+    color: transparent;
+  }
+  .main .benefits h3:hover a,
+.main .benefits h3:active a {
+    color: transparent;
+  }
+  .main .benefits p:nth-child(2):hover,
+.main .benefits p:nth-child(2):active {
+    background-image: url("/images/panel15.png");
+    color: transparent;
+  }
+  .main .benefits p:nth-child(2):hover a,
+.main .benefits p:nth-child(2):active a {
+    color: transparent;
+  }
+  .main .requirements p:nth-child(2):hover,
+.main .requirements p:nth-child(2):active {
+    background-image: url("/images/panel16.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(2):hover a,
+.main .requirements p:nth-child(2):active a {
+    color: transparent;
+  }
+  .main .requirements p:nth-child(3):hover,
+.main .requirements p:nth-child(3):active {
+    background-image: url("/images/panel17.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(3):hover a,
+.main .requirements p:nth-child(3):active a {
+    color: transparent;
+  }
   aside:hover,
 aside:active {
     background-image: url("/images/panel8.png");
@@ -383,28 +446,22 @@ aside:active .wrapper {
   }
   div.main .requirements h3 {
     grid-column: 1/7;
-    background-color: red;
   }
   div.main .requirements p:nth-child(2) {
     grid-column: 1/3;
-    background-color: orange;
   }
   div.main .requirements p:nth-child(3) {
     grid-column: 3/7;
-    background-color: yellow;
   }
   div.main .requirements p:nth-child(4) {
     grid-column: 1/5;
-    background-color: green;
   }
   div.main .requirements p:nth-child(5) {
     grid-column: 1/5;
-    background-color: blue;
   }
   div.main .requirements p:nth-child(6) {
     grid-column: 5/7;
     grid-row: span 2;
-    background-color: indigo;
   }
   div.main footer {
     grid-column: 1/7;
