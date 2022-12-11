@@ -49,6 +49,7 @@
         header:hover,
         header:active{
           background-image: url('images/panel1.png');
+          height: 10rem;
           h1,
           h2{
             color:transparent;
@@ -61,13 +62,14 @@
             p:nth-child(1):active { //A2a
               background-image: url('images/panel2.png');
               color:transparent;
+              height: 7.5rem;
                  
             }
             p:nth-child(2):hover,
             p:nth-child(2):active { //A2b
               background-image: url('images/panel3.png');
+              height: 7.5rem;
               color:transparent;
-              height: 5rem;
               a {
                 color:transparent;
               }
@@ -87,19 +89,24 @@
             p:nth-child(2):active{
               background-image: url('images/panel5.png');
               color:transparent;
-              height: 35rem;
+              height: 26rem;
+              // background-size: contain;
     
             } //A3b
             p:nth-child(3):hover,
             p:nth-child(3):active{
               background-image: url('images/panel6.png');
               color:transparent;
+              height: 26rem;
+              // background-size: contain;
 
             } //A3c
             p:nth-child(4):hover,
             p:nth-child(4):active{
               background-image: url('images/panel7.png');
               color:transparent;
+              height: 26rem;
+              // background-size: contain;
 
             } //A3d
         }
@@ -160,6 +167,7 @@
             p:nth-child(3):active{
               background-image: url('images/panel13.png');
               color:transparent;
+              height: 10rem;
               a {
                 color:transparent;
               }
@@ -170,6 +178,7 @@
             p:nth-child(4):active{
               background-image: url('images/panel14.png');
               color:transparent;
+              height: 10rem;
               a {
                 color:transparent;
               }
@@ -183,6 +192,7 @@
             h3:active{
               background-image: url('images/panel15.png');
               color:transparent;
+              height: 15rem;
               a {
                 color:transparent;
               }
@@ -244,6 +254,7 @@
             p:nth-child(6):active {
               background-image: url('images/panel21.png');
               color:transparent;
+              height: 15rem;
               a {
                 color:transparent;
               }

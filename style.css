@@ -3,6 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
+@-webkit-keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes fadeInOut {
   0% {
     opacity: 1;
@@ -96,10 +107,10 @@ aside {
     margin: 0.7rem;
     border-radius: 0.5rem;
   }
-  .intro header .summary p:nth-child(1) {
+  .intro .summary p:nth-child(1) {
     grid-column: 1/4;
   }
-  .intro header .summary p:nth-child(2) {
+  .intro .summary p:nth-child(2) {
     grid-column: 4/7;
   }
   .intro .main {
@@ -170,6 +181,7 @@ aside {
   .intro header:hover,
 .intro header:active {
     background-image: url("images/panel1.png");
+    height: 10rem;
   }
   .intro header:hover h1,
 .intro header:hover h2,
@@ -181,12 +193,13 @@ aside {
 .intro .summary p:nth-child(1):active {
     background-image: url("images/panel2.png");
     color: transparent;
+    height: 7.5rem;
   }
   .intro .summary p:nth-child(2):hover,
 .intro .summary p:nth-child(2):active {
     background-image: url("images/panel3.png");
+    height: 7.5rem;
     color: transparent;
-    height: 5rem;
   }
   .intro .summary p:nth-child(2):hover a,
 .intro .summary p:nth-child(2):active a {
@@ -201,17 +214,19 @@ aside {
 .intro .preamble p:nth-child(2):active {
     background-image: url("images/panel5.png");
     color: transparent;
-    height: 35rem;
+    height: 26rem;
   }
   .intro .preamble p:nth-child(3):hover,
 .intro .preamble p:nth-child(3):active {
     background-image: url("images/panel6.png");
     color: transparent;
+    height: 26rem;
   }
   .intro .preamble p:nth-child(4):hover,
 .intro .preamble p:nth-child(4):active {
     background-image: url("images/panel7.png");
     color: transparent;
+    height: 26rem;
   }
   .main .explanation h3:hover,
 .main .explanation h3:active {
@@ -258,6 +273,7 @@ aside {
 .main .participation p:nth-child(3):active {
     background-image: url("images/panel13.png");
     color: transparent;
+    height: 10rem;
   }
   .main .participation p:nth-child(3):hover a,
 .main .participation p:nth-child(3):active a {
@@ -267,6 +283,7 @@ aside {
 .main .participation p:nth-child(4):active {
     background-image: url("images/panel14.png");
     color: transparent;
+    height: 10rem;
   }
   .main .participation p:nth-child(4):hover a,
 .main .participation p:nth-child(4):active a {
@@ -276,6 +293,7 @@ aside {
 .main .benefits h3:active {
     background-image: url("images/panel15.png");
     color: transparent;
+    height: 15rem;
   }
   .main .benefits h3:hover a,
 .main .benefits h3:active a {
@@ -335,6 +353,7 @@ aside {
 .main .requirements p:nth-child(6):active {
     background-image: url("images/panel21.png");
     color: transparent;
+    height: 15rem;
   }
   .main .requirements p:nth-child(6):hover a,
 .main .requirements p:nth-child(6):active a {
@@ -347,14 +366,10 @@ aside {
   }
   .main footer:hover a,
 .main footer:active a {
-<<<<<<< HEAD
     -webkit-animation: 2.5s ease-in-out fadeInOut;
             animation: 2.5s ease-in-out fadeInOut;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
-=======
-    animation: 5s ease-in-out fadeInOut;
->>>>>>> 3b1d17eb50e1e0a7ec28afd40125a22f9bf0d7f9
   }
   aside:hover,
 aside:active {
@@ -455,7 +470,8 @@ a {
   div.main .participation h3 {
     grid-column: 1/2;
     grid-row: 7/10;
-    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
   }
@@ -543,6 +559,4 @@ div#zen-resources ul {
   body {
     background-image: url("images/cherry-blossom-desktop.jpg");
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
