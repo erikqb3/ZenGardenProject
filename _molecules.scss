@@ -59,13 +59,15 @@
             // grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
             // grid-auto-flow: dense;
             //A1a + A1b
+
             h1{ 
                 // grid-column: 1/5
             }
             h2 {
                 // grid-column: 5 / 7;
+
             }
-        }       
+        // }       
         .summary { //A2
             // display: grid;
             // grid-template-columns: repeat(6, auto);
@@ -228,6 +230,9 @@
             display: grid;
             grid-template-columns: repeat(6, auto);
             grid-auto-flow: dense;
+
+            p:nth-child(1) { //A2a
+                grid-column: 1 / 4;  
             p:nth-child(1) {
                 grid-column: 1 / 4;
             }
@@ -235,7 +240,9 @@
                 grid-column: 4 / 7 ;
             }
         }
+
         .preamble{ //A3
+
             display: grid;
             grid-template-columns: repeat(6, auto);
             grid-auto-flow: dense;
@@ -271,7 +278,8 @@
             display: grid;
             grid-template-columns: repeat(6, auto);
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-            grid-auto-flow: dense;
+
+            grid-auto-flow: dense;           
             h3{
                 grid-column: 1 / 2;
                 grid-row: 7 / 10;
@@ -342,4 +350,5 @@
             }
     }
 
+}
 }

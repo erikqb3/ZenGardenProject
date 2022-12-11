@@ -4,7 +4,42 @@
     .main footer {
         text-align: center;
         a {
-            font-size: $desktop-footer;
+            font-size: $mobile-footer;
+            border: none;
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+            color: transparent;
+        }
+        .zen-validate-html{
+            background-image:url('./images/html.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .zen-validate-css{
+            background-image:url('./images/css.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .zen-license {
+            background-image:url('./images/cc.xlarge.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .zen-accessibility {
+            background-image:url('./images/Ally.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .zen-github{
+            background-image:url('./images/github-mark.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
         }
     }
     
@@ -12,7 +47,7 @@
         padding: 0rem;
         margin: 2rem;
         border: 0em;
-        display: grid;
+        // display: grid;
         height: 100%;
         overflow-y: visible;
         // grid-template-columns: repeat(6, 1fr);
@@ -35,6 +70,11 @@
 }
 
 @mixin desktop-organisms{
+    .main footer {
+        a {
+            font-size: $desktop-footer;
+        }
+    }
     .page-wrapper { 
         width: 70%;
         margin: 2rem auto;
