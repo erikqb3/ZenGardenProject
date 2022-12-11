@@ -68,6 +68,7 @@ h3 {
   }
   * {
     transition: all 0.75s;
+    height: initial;
   }
   .design-selection nav ul li a,
 .design-archives nav ul li a,
@@ -177,209 +178,6 @@ aside {
     position: relative;
     overflow: hidden;
     top: 0;
-  }
-  .intro header:hover,
-.intro header:active {
-    background-image: url("images/panel1.png");
-    height: 10rem;
-  }
-  .intro header:hover h1,
-.intro header:hover h2,
-.intro header:active h1,
-.intro header:active h2 {
-    color: transparent;
-  }
-  .intro .summary p:nth-child(1):hover,
-.intro .summary p:nth-child(1):active {
-    background-image: url("images/panel2.png");
-    color: transparent;
-    height: 7.5rem;
-  }
-  .intro .summary p:nth-child(2):hover,
-.intro .summary p:nth-child(2):active {
-    background-image: url("images/panel3.png");
-    height: 7.5rem;
-    color: transparent;
-  }
-  .intro .summary p:nth-child(2):hover a,
-.intro .summary p:nth-child(2):active a {
-    color: transparent;
-  }
-  .intro .preamble h3:hover,
-.intro .preamble h3:active {
-    background-image: url("images/text1.png");
-    color: transparent;
-  }
-  .intro .preamble p:nth-child(2):hover,
-.intro .preamble p:nth-child(2):active {
-    background-image: url("images/panel5.png");
-    color: transparent;
-    height: 26rem;
-  }
-  .intro .preamble p:nth-child(3):hover,
-.intro .preamble p:nth-child(3):active {
-    background-image: url("images/panel6.png");
-    color: transparent;
-    height: 26rem;
-  }
-  .intro .preamble p:nth-child(4):hover,
-.intro .preamble p:nth-child(4):active {
-    background-image: url("images/panel7.png");
-    color: transparent;
-    height: 26rem;
-  }
-  .main .explanation h3:hover,
-.main .explanation h3:active {
-    background-image: url("images/text2.png");
-    color: transparent;
-  }
-  .main .explanation h3:hover a,
-.main .explanation h3:active a {
-    color: transparent;
-  }
-  .main .explanation p:nth-child(2):hover,
-.main .explanation p:nth-child(2):active {
-    background-image: url("images/panel10.png");
-    color: transparent;
-  }
-  .main .explanation p:nth-child(2):hover a,
-.main .explanation p:nth-child(2):active a {
-    color: transparent;
-  }
-  .main .explanation p:nth-child(3):hover,
-.main .explanation p:nth-child(3):active {
-    background-image: url("images/panel11.png");
-    color: transparent;
-  }
-  .main .explanation p:nth-child(3):hover a,
-.main .explanation p:nth-child(3):active a {
-    color: transparent;
-  }
-  .main .participation h3:hover,
-.main .participation h3:active {
-    background-image: url("images/text3(mobile).png");
-    color: transparent;
-  }
-  .main .participation p:nth-child(2):hover,
-.main .participation p:nth-child(2):active {
-    background-image: url("images/panel12.png");
-    color: transparent;
-  }
-  .main .participation p:nth-child(2):hover a,
-.main .participation p:nth-child(2):active a {
-    color: transparent;
-  }
-  .main .participation p:nth-child(3):hover,
-.main .participation p:nth-child(3):active {
-    background-image: url("images/panel13.png");
-    color: transparent;
-    height: 10rem;
-  }
-  .main .participation p:nth-child(3):hover a,
-.main .participation p:nth-child(3):active a {
-    color: transparent;
-  }
-  .main .participation p:nth-child(4):hover,
-.main .participation p:nth-child(4):active {
-    background-image: url("images/panel14.png");
-    color: transparent;
-    height: 10rem;
-  }
-  .main .participation p:nth-child(4):hover a,
-.main .participation p:nth-child(4):active a {
-    color: transparent;
-  }
-  .main .benefits h3:hover,
-.main .benefits h3:active {
-    background-image: url("images/panel15.png");
-    color: transparent;
-    height: 15rem;
-  }
-  .main .benefits h3:hover a,
-.main .benefits h3:active a {
-    color: transparent;
-  }
-  .main .benefits p:nth-child(2):hover,
-.main .benefits p:nth-child(2):active {
-    background-image: url("images/panel16.png");
-    color: transparent;
-  }
-  .main .benefits p:nth-child(2):hover a,
-.main .benefits p:nth-child(2):active a {
-    color: transparent;
-  }
-  .main .requirements h3:hover,
-.main .requirements h3:active {
-    background-image: url("images/text4.png");
-    color: transparent;
-  }
-  .main .requirements p:nth-child(2):hover,
-.main .requirements p:nth-child(2):active {
-    background-image: url("images/panel17.png");
-    color: transparent;
-  }
-  .main .requirements p:nth-child(2):hover a,
-.main .requirements p:nth-child(2):active a {
-    color: transparent;
-  }
-  .main .requirements p:nth-child(3):hover,
-.main .requirements p:nth-child(3):active {
-    background-image: url("images/panel18.png");
-    color: transparent;
-  }
-  .main .requirements p:nth-child(3):hover a,
-.main .requirements p:nth-child(3):active a {
-    color: transparent;
-  }
-  .main .requirements p:nth-child(4):hover,
-.main .requirements p:nth-child(4):active {
-    background-image: url("images/panel19.png");
-    color: transparent;
-  }
-  .main .requirements p:nth-child(4):hover a,
-.main .requirements p:nth-child(4):active a {
-    color: transparent;
-  }
-  .main .requirements p:nth-child(5):hover,
-.main .requirements p:nth-child(5):active {
-    background-image: url("images/panel20.png");
-    color: transparent;
-  }
-  .main .requirements p:nth-child(5):hover a,
-.main .requirements p:nth-child(5):active a {
-    color: transparent;
-  }
-  .main .requirements p:nth-child(6):hover,
-.main .requirements p:nth-child(6):active {
-    background-image: url("images/panel21.png");
-    color: transparent;
-    height: 15rem;
-  }
-  .main .requirements p:nth-child(6):hover a,
-.main .requirements p:nth-child(6):active a {
-    color: transparent;
-  }
-  .main footer:hover,
-.main footer:active {
-    background-image: url("images/text5.png");
-    color: transparent;
-  }
-  .main footer:hover a,
-.main footer:active a {
-    -webkit-animation: 2.5s ease-in-out fadeInOut;
-            animation: 2.5s ease-in-out fadeInOut;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-  }
-  aside:hover,
-aside:active {
-    background-image: url("images/panel8.png");
-    color: transparent;
-    height: 40rem;
-  }
-  aside:hover .wrapper,
-aside:active .wrapper {
-    opacity: 0.8;
   }
   body {
     background-image: url("images/cherry-blossom-phone.jpg");
@@ -556,6 +354,198 @@ div#zen-resources ul {
   .page-wrapper div.main {
     grid-column: 1/7;
     grid-row: 3;
+  }
+  .intro header:hover,
+.intro header:active {
+    background-image: url("images/panel1.png");
+  }
+  .intro header:hover h1,
+.intro header:hover h2,
+.intro header:active h1,
+.intro header:active h2 {
+    color: transparent;
+  }
+  .intro .summary p:nth-child(1):hover,
+.intro .summary p:nth-child(1):active {
+    background-image: url("images/panel2.png");
+    color: transparent;
+  }
+  .intro .summary p:nth-child(2):hover,
+.intro .summary p:nth-child(2):active {
+    background-image: url("images/panel3.png");
+    color: transparent;
+  }
+  .intro .summary p:nth-child(2):hover a,
+.intro .summary p:nth-child(2):active a {
+    color: transparent;
+  }
+  .intro .preamble h3:hover,
+.intro .preamble h3:active {
+    background-image: url("images/text1.png");
+    color: transparent;
+  }
+  .intro .preamble p:nth-child(2):hover,
+.intro .preamble p:nth-child(2):active {
+    background-image: url("images/panel5.png");
+    color: transparent;
+  }
+  .intro .preamble p:nth-child(3):hover,
+.intro .preamble p:nth-child(3):active {
+    background-image: url("images/panel6.png");
+    color: transparent;
+  }
+  .intro .preamble p:nth-child(4):hover,
+.intro .preamble p:nth-child(4):active {
+    background-image: url("images/panel7.png");
+    color: transparent;
+  }
+  .main .explanation h3:hover,
+.main .explanation h3:active {
+    background-image: url("images/text2.png");
+    color: transparent;
+  }
+  .main .explanation h3:hover a,
+.main .explanation h3:active a {
+    color: transparent;
+  }
+  .main .explanation p:nth-child(2):hover,
+.main .explanation p:nth-child(2):active {
+    background-image: url("images/panel10.png");
+    color: transparent;
+  }
+  .main .explanation p:nth-child(2):hover a,
+.main .explanation p:nth-child(2):active a {
+    color: transparent;
+  }
+  .main .explanation p:nth-child(3):hover,
+.main .explanation p:nth-child(3):active {
+    background-image: url("images/panel11.png");
+    color: transparent;
+  }
+  .main .explanation p:nth-child(3):hover a,
+.main .explanation p:nth-child(3):active a {
+    color: transparent;
+  }
+  .main .participation h3:hover,
+.main .participation h3:active {
+    background-image: url("images/text3.png");
+    color: transparent;
+  }
+  .main .participation p:nth-child(2):hover,
+.main .participation p:nth-child(2):active {
+    background-image: url("images/panel12.png");
+    color: transparent;
+  }
+  .main .participation p:nth-child(2):hover a,
+.main .participation p:nth-child(2):active a {
+    color: transparent;
+  }
+  .main .participation p:nth-child(3):hover,
+.main .participation p:nth-child(3):active {
+    background-image: url("images/panel13.png");
+    color: transparent;
+  }
+  .main .participation p:nth-child(3):hover a,
+.main .participation p:nth-child(3):active a {
+    color: transparent;
+  }
+  .main .participation p:nth-child(4):hover,
+.main .participation p:nth-child(4):active {
+    background-image: url("images/panel14.png");
+    color: transparent;
+  }
+  .main .participation p:nth-child(4):hover a,
+.main .participation p:nth-child(4):active a {
+    color: transparent;
+  }
+  .main .benefits h3:hover,
+.main .benefits h3:active {
+    background-image: url("images/panel15.png");
+    color: transparent;
+  }
+  .main .benefits h3:hover a,
+.main .benefits h3:active a {
+    color: transparent;
+  }
+  .main .benefits p:nth-child(2):hover,
+.main .benefits p:nth-child(2):active {
+    background-image: url("images/panel16.png");
+    color: transparent;
+  }
+  .main .benefits p:nth-child(2):hover a,
+.main .benefits p:nth-child(2):active a {
+    color: transparent;
+  }
+  .main .requirements h3:hover,
+.main .requirements h3:active {
+    background-image: url("images/text4.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(2):hover,
+.main .requirements p:nth-child(2):active {
+    background-image: url("images/panel17.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(2):hover a,
+.main .requirements p:nth-child(2):active a {
+    color: transparent;
+  }
+  .main .requirements p:nth-child(3):hover,
+.main .requirements p:nth-child(3):active {
+    background-image: url("images/panel18.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(3):hover a,
+.main .requirements p:nth-child(3):active a {
+    color: transparent;
+  }
+  .main .requirements p:nth-child(4):hover,
+.main .requirements p:nth-child(4):active {
+    background-image: url("images/panel19.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(4):hover a,
+.main .requirements p:nth-child(4):active a {
+    color: transparent;
+  }
+  .main .requirements p:nth-child(5):hover,
+.main .requirements p:nth-child(5):active {
+    background-image: url("images/panel20.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(5):hover a,
+.main .requirements p:nth-child(5):active a {
+    color: transparent;
+  }
+  .main .requirements p:nth-child(6):hover,
+.main .requirements p:nth-child(6):active {
+    background-image: url("images/panel21.png");
+    color: transparent;
+  }
+  .main .requirements p:nth-child(6):hover a,
+.main .requirements p:nth-child(6):active a {
+    color: transparent;
+  }
+  .main footer:hover,
+.main footer:active {
+    background-image: url("images/text5.png");
+    color: transparent;
+  }
+  .main footer:hover a,
+.main footer:active a {
+    -webkit-animation: 2.5s ease-in-out fadeInOut;
+            animation: 2.5s ease-in-out fadeInOut;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  aside:hover,
+aside:active {
+    background-image: url("images/panel8.png");
+    color: transparent;
+  }
+  aside:hover .wrapper,
+aside:active .wrapper {
+    opacity: 0.8;
   }
   body {
     background-image: url("images/cherry-blossom-desktop.jpg");

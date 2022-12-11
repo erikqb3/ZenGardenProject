@@ -14,12 +14,13 @@
     @include mobile-atoms;
     @include mobile-molecules;
     @include mobile-organisms;
-    @include hover_N_active;
+    
 }
 @mixin desktop-settings{
     @include desktop-atoms;
     @include desktop-molecules;
     @include desktop-organisms;
+    @include hover_N_active;
 }
 
 @media only screen and (min-width:0px){ //MOBILE VIEW
@@ -43,3 +44,5 @@
     }
 } //LARGE TABLET VIEW
 @media only screen and (min-width:1200px){} //DESKTOP VIEW
+
+
