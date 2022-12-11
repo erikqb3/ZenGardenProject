@@ -110,11 +110,6 @@ aside {
   .main {
     grid-column: 1/7;
   }
-  div#design-selection ul,
-div#design-archives ul,
-div#zen-resources ul {
-    list-style: none;
-  }
   .main footer {
     text-align: center;
   }
@@ -313,12 +308,6 @@ a {
   }
   div.main footer {
     grid-column: 1/7;
-  }
-  div#design-selection ul,
-div#design-archives ul,
-div#zen-resources ul {
-    list-style: none;
-    margin-bottom: 2.5rem;
   }
   .main footer a {
     font-size: 1.8rem;
