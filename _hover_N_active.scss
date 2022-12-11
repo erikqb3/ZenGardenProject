@@ -67,6 +67,7 @@
             p:nth-child(2):active { //A2b
               background-image: url('images/panel3.png');
               color:transparent;
+              height: 5rem;
               a {
                 color:transparent;
               }
@@ -78,6 +79,7 @@
             h3:active{
               background-image: url('images/text1.png');
               color:transparent;
+              
 
 
             } //A3a
@@ -85,6 +87,7 @@
             p:nth-child(2):active{
               background-image: url('images/panel5.png');
               color:transparent;
+              height: 35rem;
     
             } //A3b
             p:nth-child(3):hover,
@@ -252,7 +255,8 @@
           background-image: url('images/text5.png');
           color:transparent;
           a {
-            animation: 5s ease-in-out fadeInOut;
+            animation: 2.5s ease-in-out fadeInOut;
+            animation-iteration-count: infinite;
           }
         }
     } //B5
