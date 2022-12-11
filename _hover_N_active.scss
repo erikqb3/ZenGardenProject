@@ -150,7 +150,7 @@
             
             h3:hover,
             h3:active{
-              background-image: url('images/text3.png');
+              background-image: url('images/text3(mobile).png');
               color:transparent;
                 
             } //B2a
@@ -284,6 +284,7 @@
     aside:active{
       background-image: url('images/panel8.png');
       color:transparent;
+      height: 40rem;
       .wrapper {
         opacity:0.8;
       }

@@ -257,7 +257,7 @@ aside {
   }
   .main .participation h3:hover,
 .main .participation h3:active {
-    background-image: url("images/text3.png");
+    background-image: url("images/text3(mobile).png");
     color: transparent;
   }
   .main .participation p:nth-child(2):hover,
@@ -375,6 +375,7 @@ aside {
 aside:active {
     background-image: url("images/panel8.png");
     color: transparent;
+    height: 40rem;
   }
   aside:hover .wrapper,
 aside:active .wrapper {
