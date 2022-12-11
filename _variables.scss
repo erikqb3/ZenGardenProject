@@ -3,11 +3,11 @@
 $font-headline: 'Nothing You Could Do', serif;
 $font-paragraph: 'Montserrat', sans-serif;
 // Font Colors
-$primary: #385155; //h1
-$accent1: #D6AFC6; //a:hover, a:active
-$accent2: #53596F; //h2, a
-$accent3: #E5E9F5; //semi-translucent background
-$accent4: #5C7691; //h3, p
+$primary: rgba(56,81,85,1); //h1
+$accent1: rgba(214,175,198,1); //a:hover, a:active
+$accent2: rgba(83,89,111,1); //h2, a
+$accent3: rgba(229,233,245,1); //semi-translucent background
+$accent4: rgba(92,118,145,1); //h3, p
 //Font Sizes
 $desktop-h1: 5rem;
 $desktop-h2: 3rem;
