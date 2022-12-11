@@ -1,17 +1,6 @@
 @import "variables";
 
 @mixin hover_N_active{
-    .design-selection nav,
-    .design-archives nav,
-    .zen-resources {
-        ul {
-            li {
-                a {
-                    
-                }
-            }
-        }
-    }
     //INTRO (Red)
     .intro {
         
@@ -222,13 +211,6 @@
     } //B5
 
     //ASIDE (Blue)
-    div#design-selection,  
-    div#design-archives, 
-    div#zen-resources{
-        ul{               
-            
-        }
-    }
     aside:hover,
     aside:active{
       background-image: url('images/panel8.png');
