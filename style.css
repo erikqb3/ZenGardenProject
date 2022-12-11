@@ -3,17 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
-@-webkit-keyframes fadeInOut {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fadeInOut {
   0% {
     opacity: 1;
@@ -358,10 +347,14 @@ aside {
   }
   .main footer:hover a,
 .main footer:active a {
+<<<<<<< HEAD
     -webkit-animation: 2.5s ease-in-out fadeInOut;
             animation: 2.5s ease-in-out fadeInOut;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
+=======
+    animation: 5s ease-in-out fadeInOut;
+>>>>>>> 3b1d17eb50e1e0a7ec28afd40125a22f9bf0d7f9
   }
   aside:hover,
 aside:active {
@@ -462,8 +455,7 @@ a {
   div.main .participation h3 {
     grid-column: 1/2;
     grid-row: 7/10;
-    -ms-writing-mode: tb-rl;
-        writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
   }
@@ -551,4 +543,6 @@ div#zen-resources ul {
   body {
     background-image: url("images/cherry-blossom-desktop.jpg");
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
