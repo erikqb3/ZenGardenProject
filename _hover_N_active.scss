@@ -252,8 +252,7 @@
           background-image: url('images/text5.png');
           color:transparent;
           a {
-            color:transparent;
-            opacity:0;
+            animation: 5s ease-in-out fadeInOut;
           }
         }
     } //B5
@@ -271,7 +270,7 @@
       background-image: url('images/panel8.png');
       color:transparent;
       .wrapper {
-        opacity:0;
+        opacity:0.8;
       }
     }
     
@@ -374,3 +373,8 @@
 //     }
 
 // }
+@keyframes fadeInOut {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}

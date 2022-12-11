@@ -3,6 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -451,8 +462,7 @@ div#zen-resources ul {
   }
   .main footer:hover a,
 .main footer:active a {
-    color: transparent;
-    opacity: 0;
+    animation: 5s ease-in-out fadeInOut;
   }
   aside:hover,
 aside:active {
@@ -461,7 +471,7 @@ aside:active {
   }
   aside:hover .wrapper,
 aside:active .wrapper {
-    opacity: 0;
+    opacity: 0.8;
   }
   body {
     background-image: url("images/cherry-blossom-phone.jpg");
