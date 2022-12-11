@@ -53,21 +53,23 @@
     }
     //INTRO (Red)
     .intro {
-        grid-column: 1 / 7;
+        // grid-column: 1 / 7;
         header{ //A1
-            display: grid;
-            grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
-            grid-auto-flow: dense;
+            // display: grid;
+            // grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+            // grid-auto-flow: dense;
             //A1a + A1b
-            h1{ grid-column: 1/5}
+            h1{ 
+                // grid-column: 1/5
+            }
             h2 {
-                grid-column: 5 / 7;
+                // grid-column: 5 / 7;
             }
         }       
         .summary { //A2
-            display: grid;
-            grid-template-columns: repeat(6, auto);
-            grid-auto-flow: dense;
+            // display: grid;
+            // grid-template-columns: repeat(6, auto);
+            // grid-auto-flow: dense;
             p:nth-child(1) { //A2a
                 grid-column: 1 / 4;   
             }
@@ -76,23 +78,23 @@
             }
         }
         .preamble { //A3
-            display: grid;
-            grid-template-columns: repeat(6, auto);
-            grid-auto-flow: dense;
+            // display: grid;
+            // grid-template-columns: repeat(6, auto);
+            // grid-auto-flow: dense;
             h3{
-                grid-column: 1 / 7;
+                // grid-column: 1 / 7;
 
             } //A3a
             p:nth-child(2){
-                grid-column: 1 / 4;
+                // grid-column: 1 / 4;
     
             } //A3b
             p:nth-child(3){
-                grid-column: 4 / 7;
+                // grid-column: 4 / 7;
 
             } //A3c
             p:nth-child(4){
-                grid-column: 1 / 7;
+                // grid-column: 1 / 7;
 
             } //A3d
         }
@@ -101,93 +103,92 @@
     .main {
         grid-column: 1 / 7;
         .explanation{ //B1
-            display: grid;
-            grid-template-columns: repeat(6, auto);
-            grid-auto-flow: dense;
+            // display: grid;
+            // grid-template-columns: repeat(6, auto);
+            // grid-auto-flow: dense;
             h3{
                 grid-column: 1 / 7;
                 
             } //B1a
             p:nth-child(2){
-                grid-column: 1 / 4;
+                // grid-column: 1 / 4;
             
             } //B1b
             p:nth-child(3){
-                grid-column: 4 / 7;
+                // grid-column: 4 / 7;
             
             } //B1c
         }
 
         .participation{ //B2
-            display: grid;
-            grid-template-columns: repeat(6, auto);
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-            grid-auto-flow: dense;
+            // display: grid;
+            // grid-template-columns: repeat(6, auto);
+            // grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            // grid-auto-flow: dense;
             h3{
-                grid-column: 1 / 3;
-                grid-row: 1/2;
+                // grid-column: 1 / 3;
+                // grid-row: 1/2;
                 
             } //B2a
             p:nth-child(2){
-                grid-column: 1 / 3;
-                grid-row: 2/6;
+                // grid-column: 1 / 3;
+                // grid-row: 2/6;
                 
             } //B2b
             p:nth-child(3){
-                grid-column: 3 / 5;
-                grid-row: 1/6;
+                // grid-column: 3 / 5;
+                // grid-row: 1/6;
                 
             } //B2c
             p:nth-child(4){
-                grid-column: 5 / 7;
-                grid-row: 1/6;
+                // grid-column: 5 / 7;
+                // grid-row: 1/6;
                 
             } //B2d
         }
         .benefits{ //B3
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-auto-flow: dense;
+            // display: grid;
+            // grid-template-columns: repeat(6, 1fr);
+            // grid-auto-flow: dense;
             h3{
-               grid-column: 1/2 
+            //    grid-column: 1/2 
             }
             p:nth-child(2){
-                grid-column: 2 / 7;
+                // grid-column: 2 / 7;
                 
             } //B3a + 3b
         }
         .requirements{ //B4
-            display: grid;
-            grid-template-columns: repeat(6, auto);
-            grid-auto-flow: dense;
+            // display: grid;
+            // grid-template-columns: repeat(6, auto);
+            // grid-auto-flow: dense;
             h3{
-                grid-column: 1 / 7;
+                // grid-column: 1 / 7;
                 
             } //B4a
             p:nth-child(2){
-                grid-column: 1 / 4;
+                // grid-column: 1 / 4;
                 
             } //B4b
             p:nth-child(3){
-                grid-column: 4 / 7;
+                // grid-column: 4 / 7;
                 
             } //B4c
             p:nth-child(4){
-                grid-column: 1 / 3;
+                // grid-column: 1 / 3;
             
             } //B4d
             p:nth-child(5){
-                grid-column: 3 / 5;
+                // grid-column: 3 / 5;
                 
             } //B4e
             p:nth-child(6){
-                grid-column: 5 / 7;
+                // grid-column: 5 / 7;
                 
             } //B4f
         }
         footer{
-            grid-column: 1 / 7;
-            
+            // grid-column: 1 / 7;
         }
     } //B5
 
@@ -224,6 +225,9 @@
             }
         }
         .summary { //A2
+            display: grid;
+            grid-template-columns: repeat(6, auto);
+            grid-auto-flow: dense;
             p:nth-child(1) {
                 grid-column: 1 / 4;
             }
@@ -232,6 +236,9 @@
             }
         }
         .preamble{ //A3
+            display: grid;
+            grid-template-columns: repeat(6, auto);
+            grid-auto-flow: dense;
             h3{
                 grid-column: 1 / 7;
             } //A3a
@@ -250,6 +257,9 @@
     div.main {
         .explanation{
             //B1a
+            display: grid;
+            grid-template-columns: repeat(6, auto);
+            grid-auto-flow: dense;
             p:nth-child(2){
                 grid-column: 1 / 3;
             } //B1b
@@ -258,6 +268,10 @@
             } //B1c
         }
         .participation{ //B2
+            display: grid;
+            grid-template-columns: repeat(6, auto);
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-auto-flow: dense;
             h3{
                 grid-column: 1 / 2;
                 grid-row: 7 / 10;
@@ -280,6 +294,9 @@
         }
         .benefits{ //B3
             height: 15%;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-auto-flow: dense;
             h3{
                 grid-column: 1 / 3;
             } //B3a
@@ -288,6 +305,9 @@
             } //B3b
         }
         .requirements{ //B4
+            display: grid;
+            grid-template-columns: repeat(6, auto);
+            grid-auto-flow: dense;
             h3{
                 grid-column: 1 / 7;
             } //B4a
