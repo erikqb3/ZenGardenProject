@@ -3,17 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
-@-webkit-keyframes fadeInOut {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fadeInOut {
   0% {
     opacity: 1;
@@ -68,7 +57,11 @@ h3 {
   }
   * {
     transition: all 0.75s;
-    height: initial;
+  }
+  .design-selection nav ul,
+.design-archives nav ul,
+.zen-resources ul {
+    list-style-type: none;
   }
   .design-selection nav ul li a,
 .design-archives nav ul li a,
@@ -114,15 +107,12 @@ aside {
   .intro .summary p:nth-child(2) {
     grid-column: 4/7;
   }
-  .intro .main {
+  .main {
     grid-column: 1/7;
   }
-  .intro .main .explanation h3 {
-    grid-column: 1/7;
-  }
-  .intro div#design-selection ul,
-.intro div#design-archives ul,
-.intro div#zen-resources ul {
+  div#design-selection ul,
+div#design-archives ul,
+div#zen-resources ul {
     list-style: none;
   }
   .main footer {
@@ -223,10 +213,10 @@ a {
   .intro .summary p:nth-child(1) {
     grid-column: 1/4;
   }
-  .intro .summary p:nth-child(1) p:nth-child(1) {
+  .intro .summary p:nth-child(1) {
     grid-column: 1/4;
   }
-  .intro .summary p:nth-child(1) p:nth-child(2) {
+  .intro .summary p:nth-child(2) {
     grid-column: 4/7;
   }
   .intro .preamble {
@@ -269,8 +259,7 @@ a {
   div.main .participation h3 {
     grid-column: 1/2;
     grid-row: 7/10;
-    -ms-writing-mode: tb-rl;
-        writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
   }
@@ -533,10 +522,8 @@ div#zen-resources ul {
   }
   .main footer:hover a,
 .main footer:active a {
-    -webkit-animation: 2.5s ease-in-out fadeInOut;
-            animation: 2.5s ease-in-out fadeInOut;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation: 2.5s ease-in-out fadeInOut;
+    animation-iteration-count: infinite;
   }
   aside:hover,
 aside:active {
@@ -550,4 +537,6 @@ aside:active .wrapper {
   body {
     background-image: url("images/cherry-blossom-desktop.jpg");
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
