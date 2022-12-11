@@ -8,6 +8,7 @@
     .design-archives nav,
     .zen-resources {
         ul {
+            list-style-type: none;
             li {
                 a {
                     font-size: $desktop-body;
@@ -64,17 +65,7 @@
     //MAIN (Green)
     .main {
         grid-column: 1 / 7;
-    } //B5
-
-    //ASIDE (Blue)
-    div#design-selection,  
-    div#design-archives, 
-    div#zen-resources{
-        ul{               
-            list-style: none;
-        }
-    }
-    
+    } //B5    
 }
 
 @mixin desktop-molecules{
@@ -211,14 +202,5 @@
         footer{
             grid-column: 1 / 7;
         } //B5
-    }
-        //ASIDE (Blue)
-    div#design-selection, 
-    div#design-archives, 
-    div#zen-resources{
-        ul{          
-            list-style: none;
-            margin-bottom: 2.5rem;
-        }
     }
 }
